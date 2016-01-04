@@ -7,3 +7,15 @@ Yii2 Tagged Behavior
 ```php
 composer require "yadjet/yii2-tagged-behavior:dev-master" 
 ```
+
+# 使用
+```php
+public function behaviors() {
+    return array_merge(parent::behaviors(), [
+        [
+            'class' => TaggedBehavior::className(),
+            'attribute' => 'tags',
+        ],
+    ]);
+}
+```
