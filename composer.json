@@ -14,7 +14,7 @@
             "email": "hiscaler@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "yadjet\\behaviors\\": "src/yadjet/behaviors"
