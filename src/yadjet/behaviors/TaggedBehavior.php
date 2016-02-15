@@ -82,7 +82,7 @@ class TaggedBehavior extends \yii\base\Behavior
         $owner = $this->owner;
         $entityName = $owner::className2Id();
         $now = time();
-        $userId = Yii::$app->user->id;
+        $userId = Yii::$app->getUser()->getId();
         $updateFrequencyTags = [];
         $batchInsertEntityTags = [];
         $db = Yii::$app->getDb();
