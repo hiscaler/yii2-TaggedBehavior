@@ -1,5 +1,5 @@
 {
-    "name": "yadjet/yii2-tagged-behaviors",
+    "name": "yadjet/yii2-tagged-behavior",
     "description": "Tag behaviors For Yii2",
     "keywords": ["yii2", "tag", "behavior"],
     "type": "project",
